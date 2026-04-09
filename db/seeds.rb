@@ -14,7 +14,7 @@ owner3 = Owner.create!(
   email: "pedro@test.com", phone: "789", address: "Calle 3"
 )
 
-# Pets (asociación correcta)
+# Pets 
 pet1 = owner1.pets.create!(
   name: "Firulais", species: "Dog", breed: "Labrador",
   date_of_birth: "2020-01-01", weight: 25
